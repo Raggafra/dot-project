@@ -2,7 +2,7 @@
 <bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" id="Definitions_02mzxnz" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Modeler" exporterVersion="1.16.1">
   <bpmn:collaboration id="Collaboration_1nvy6es">
     <bpmn:participant id="Participant_0fqnmtx" name="User" processRef="Process_1" />
-    <bpmn:participant id="Participant_0zmlihm" name="Lofistic company" processRef="Process_19m8jj8" />
+    <bpmn:participant id="Participant_0zmlihm" name="Logistic company" processRef="Process_19m8jj8" />
     <bpmn:participant id="Participant_0ad8ew5" name="Payment handler" processRef="Process_035rd86" />
     <bpmn:participant id="Participant_0b8pn4f" name="corriere-applicazione" processRef="Process_07j79by" />
     <bpmn:messageFlow id="MessageFlow_0us0q4z" sourceRef="IntermediateThrowEvent_1nuiuyo" targetRef="StartEvent_0derlsi" />
@@ -62,7 +62,7 @@
       <bpmn:outgoing>SequenceFlow_10fg9t5</bpmn:outgoing>
       <bpmn:messageEventDefinition />
     </bpmn:intermediateCatchEvent>
-    <bpmn:sendTask id="Task_12l4mn3" name="Answer">
+    <bpmn:sendTask id="Task_12l4mn3" name="Answer with package dimensions">
       <bpmn:incoming>SequenceFlow_10fg9t5</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_1cl21ea</bpmn:outgoing>
     </bpmn:sendTask>
@@ -85,7 +85,7 @@
       <bpmn:outgoing>SequenceFlow_13y2clx</bpmn:outgoing>
       <bpmn:messageEventDefinition />
     </bpmn:intermediateCatchEvent>
-    <bpmn:intermediateThrowEvent id="IntermediateThrowEvent_1bphm4p" name="conferma">
+    <bpmn:intermediateThrowEvent id="IntermediateThrowEvent_1bphm4p" name="confirmation">
       <bpmn:incoming>SequenceFlow_13y2clx</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_1jzlt1f</bpmn:outgoing>
       <bpmn:messageEventDefinition />
@@ -269,10 +269,10 @@
       <bpmn:text>payment accepted</bpmn:text>
     </bpmn:textAnnotation>
     <bpmn:textAnnotation id="TextAnnotation_02bobsp">
-      <bpmn:text>consegna presso punto prestabilito orario prestabilito</bpmn:text>
+      <bpmn:text>private delivery to a withdrawal point</bpmn:text>
     </bpmn:textAnnotation>
     <bpmn:textAnnotation id="TextAnnotation_02uu7rg">
-      <bpmn:text>ritiro a casa</bpmn:text>
+      <bpmn:text>pick up from sender home</bpmn:text>
     </bpmn:textAnnotation>
     <bpmn:association id="Association_05h7imf" sourceRef="IntermediateThrowEvent_1nuiuyo" targetRef="TextAnnotation_1on6pte" />
     <bpmn:association id="Association_1ilgkwf" sourceRef="IntermediateThrowEvent_05g2n6s" targetRef="TextAnnotation_15rv5tx" />
@@ -280,10 +280,10 @@
     <bpmn:association id="Association_14oiiho" sourceRef="IntermediateThrowEvent_02c9ko9" targetRef="TextAnnotation_02bobsp" />
     <bpmn:association id="Association_0fknwgt" sourceRef="IntermediateThrowEvent_0d0gd3f" targetRef="TextAnnotation_02uu7rg" />
     <bpmn:association id="Association_1pnsu0s" sourceRef="IntermediateThrowEvent_1iiczv7" targetRef="TextAnnotation_16m3kcp" />
-    <bpmn:textAnnotation id="TextAnnotation_1pp9bm5">
-      <bpmn:text>payment confirmation</bpmn:text>
-    </bpmn:textAnnotation>
     <bpmn:association id="Association_193caq0" sourceRef="IntermediateThrowEvent_0oay0o4" targetRef="TextAnnotation_1pp9bm5" />
+    <bpmn:textAnnotation id="TextAnnotation_1pp9bm5">
+      <bpmn:text>payment confirmation and chosen shipment option</bpmn:text>
+    </bpmn:textAnnotation>
   </bpmn:process>
   <bpmn:process id="Process_19m8jj8" isExecutable="false">
     <bpmn:laneSet id="LaneSet_1ek3pmu">
@@ -512,11 +512,8 @@
     <bpmn:sequenceFlow id="SequenceFlow_1qshc6j" sourceRef="IntermediateThrowEvent_17i64db" targetRef="IntermediateThrowEvent_0mxa02w" />
     <bpmn:association id="Association_15kfsnw" sourceRef="IntermediateThrowEvent_1qsqsou" targetRef="TextAnnotation_1lwxgut" />
     <bpmn:association id="Association_15asypm" sourceRef="IntermediateThrowEvent_1bbfqk0" targetRef="TextAnnotation_0q2gme6" />
-    <bpmn:textAnnotation id="TextAnnotation_1lwxgut">
-      <bpmn:text>package dimensions</bpmn:text>
-    </bpmn:textAnnotation>
     <bpmn:textAnnotation id="TextAnnotation_0q2gme6">
-      <bpmn:text>ask for shipment information</bpmn:text>
+      <bpmn:text>shipment information request</bpmn:text>
     </bpmn:textAnnotation>
     <bpmn:textAnnotation id="TextAnnotation_16fweqx">
       <bpmn:text>confirmation</bpmn:text>
@@ -535,6 +532,9 @@
     <bpmn:association id="Association_0lpnecw" sourceRef="IntermediateThrowEvent_09a9cr6" targetRef="TextAnnotation_1ga90hc" />
     <bpmn:textAnnotation id="TextAnnotation_1ga90hc">
       <bpmn:text>shipment document</bpmn:text>
+    </bpmn:textAnnotation>
+    <bpmn:textAnnotation id="TextAnnotation_1lwxgut">
+      <bpmn:text>package dimensions request</bpmn:text>
     </bpmn:textAnnotation>
   </bpmn:process>
   <bpmn:process id="Process_035rd86" isExecutable="false" />
@@ -623,11 +623,11 @@
         <dc:Bounds x="902" y="532" width="36" height="36" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="TextAnnotation_1lwxgut_di" bpmnElement="TextAnnotation_1lwxgut">
-        <dc:Bounds x="828.75" y="633" width="100" height="40" />
+        <dc:Bounds x="849" y="633" width="100" height="54" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="Association_15kfsnw_di" bpmnElement="Association_15kfsnw">
-        <di:waypoint x="913" y="567" />
-        <di:waypoint x="887" y="633" />
+        <di:waypoint x="917" y="567" />
+        <di:waypoint x="904" y="633" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="IntermediateCatchEvent_19oaq86_di" bpmnElement="IntermediateThrowEvent_0tcrwu1">
         <dc:Bounds x="824" y="-107" width="36" height="36" />
@@ -775,7 +775,7 @@
       <bpmndi:BPMNShape id="IntermediateThrowEvent_1pm9cuh_di" bpmnElement="IntermediateThrowEvent_1bphm4p">
         <dc:Bounds x="2150" y="-85" width="36" height="36" />
         <bpmndi:BPMNLabel>
-          <dc:Bounds x="2145" y="-42" width="46" height="14" />
+          <dc:Bounds x="2138" y="-42" width="60" height="14" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="MessageFlow_1xapo2q_di" bpmnElement="MessageFlow_1xapo2q">
@@ -1036,18 +1036,18 @@
         <di:waypoint x="3493" y="-61" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="TextAnnotation_02bobsp_di" bpmnElement="TextAnnotation_02bobsp">
-        <dc:Bounds x="3345" y="-177" width="100" height="80" />
+        <dc:Bounds x="3345" y="-177" width="100" height="54" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="Association_14oiiho_di" bpmnElement="Association_14oiiho">
-        <di:waypoint x="3341" y="-91" />
-        <di:waypoint x="3349" y="-97" />
+        <di:waypoint x="3339" y="-92" />
+        <di:waypoint x="3371" y="-123" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="TextAnnotation_02uu7rg_di" bpmnElement="TextAnnotation_02uu7rg">
-        <dc:Bounds x="3396" y="36" width="99.98924268502583" height="29.999462134251292" />
+        <dc:Bounds x="3396" y="36" width="100" height="40" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="Association_0fknwgt_di" bpmnElement="Association_0fknwgt">
-        <di:waypoint x="3400" y="3" />
-        <di:waypoint x="3432" y="36" />
+        <di:waypoint x="3400" y="4" />
+        <di:waypoint x="3429" y="36" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="TextAnnotation_00l83tm_di" bpmnElement="TextAnnotation_00l83tm">
         <dc:Bounds x="3027" y="1009.1336032388663" width="99.99156545209178" height="29.984817813765183" />
@@ -1079,9 +1079,9 @@
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="MessageFlow_104dyay_di" bpmnElement="MessageFlow_104dyay">
         <di:waypoint x="3557" y="928" />
-        <di:waypoint x="3557" y="576" />
-        <di:waypoint x="3552" y="576" />
-        <di:waypoint x="3552" y="4" />
+        <di:waypoint x="3557" y="548" />
+        <di:waypoint x="3543" y="548" />
+        <di:waypoint x="3543" y="7" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="SendTask_0oi25go_di" bpmnElement="Task_0km7173">
         <dc:Bounds x="3610" y="-51" width="100" height="80" />
@@ -1285,11 +1285,11 @@
         <di:waypoint x="2302" y="-13" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="TextAnnotation_1pp9bm5_di" bpmnElement="TextAnnotation_1pp9bm5">
-        <dc:Bounds x="2426.2547332185886" y="-46" width="99.98924268502583" height="39.586919104991395" />
+        <dc:Bounds x="2426" y="-80" width="100" height="68" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="Association_193caq0_di" bpmnElement="Association_193caq0">
-        <di:waypoint x="2411" y="-6" />
-        <di:waypoint x="2426" y="-11" />
+        <di:waypoint x="2410" y="-9" />
+        <di:waypoint x="2426" y="-19" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="TextAnnotation_1ga90hc_di" bpmnElement="TextAnnotation_1ga90hc">
         <dc:Bounds x="2759" y="662" width="99.98924268502583" height="39.586919104991395" />
