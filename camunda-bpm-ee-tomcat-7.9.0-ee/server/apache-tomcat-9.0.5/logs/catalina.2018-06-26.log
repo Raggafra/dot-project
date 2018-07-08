@@ -1,0 +1,189 @@
+26-Jun-2018 21:02:55.653 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.5
+26-Jun-2018 21:02:55.657 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 6 2018 21:42:23 UTC
+26-Jun-2018 21:02:55.657 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.5.0
+26-Jun-2018 21:02:55.657 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+26-Jun-2018 21:02:55.658 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+26-Jun-2018 21:02:55.658 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+26-Jun-2018 21:02:55.658 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files (x86)\Java\jre1.8.0_171
+26-Jun-2018 21:02:55.658 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_171-b11
+26-Jun-2018 21:02:55.658 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+26-Jun-2018 21:02:55.658 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\david\Git\psd-project\camunda-bpm-ee-tomcat-7.9.0-ee\server\apache-tomcat-9.0.5
+26-Jun-2018 21:02:55.658 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\david\Git\psd-project\camunda-bpm-ee-tomcat-7.9.0-ee\server\apache-tomcat-9.0.5
+26-Jun-2018 21:02:55.659 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\david\Git\psd-project\camunda-bpm-ee-tomcat-7.9.0-ee\server\apache-tomcat-9.0.5\conf\logging.properties
+26-Jun-2018 21:02:55.659 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Jun-2018 21:02:55.659 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+26-Jun-2018 21:02:55.659 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+26-Jun-2018 21:02:55.660 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx512m
+26-Jun-2018 21:02:55.660 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:MaxPermSize=256m
+26-Jun-2018 21:02:55.660 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:PermSize=256m
+26-Jun-2018 21:02:55.661 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+26-Jun-2018 21:02:55.661 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\david\Git\psd-project\camunda-bpm-ee-tomcat-7.9.0-ee\server\apache-tomcat-9.0.5
+26-Jun-2018 21:02:55.662 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\david\Git\psd-project\camunda-bpm-ee-tomcat-7.9.0-ee\server\apache-tomcat-9.0.5
+26-Jun-2018 21:02:55.662 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\david\Git\psd-project\camunda-bpm-ee-tomcat-7.9.0-ee\server\apache-tomcat-9.0.5\temp
+26-Jun-2018 21:02:55.663 INFORMAZIONI [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files (x86)\Java\jre1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\david\AppData\Local\Microsoft\WindowsApps;;.]
+26-Jun-2018 21:02:55.802 INFORMAZIONI [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+26-Jun-2018 21:02:56.030 INFORMAZIONI [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+26-Jun-2018 21:02:56.037 INFORMAZIONI [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+26-Jun-2018 21:02:56.040 INFORMAZIONI [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+26-Jun-2018 21:02:56.041 INFORMAZIONI [main] org.apache.catalina.startup.Catalina.load Initialization processed in 650 ms
+26-Jun-2018 21:02:56.416 INFORMAZIONI [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-08046 Found camunda bpm platform configuration in CATALINA_BASE/CATALINA_HOME conf directory [C:\Users\david\Git\psd-project\camunda-bpm-ee-tomcat-7.9.0-ee\server\apache-tomcat-9.0.5\conf\bpm-platform.xml] at 'file:/C:/Users/david/Git/psd-project/camunda-bpm-ee-tomcat-7.9.0-ee/server/apache-tomcat-9.0.5/conf/bpm-platform.xml'
+26-Jun-2018 21:02:56.702 INFORMAZIONI [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-12003 Plugin 'ProcessApplicationEventListenerPlugin' activated on process engine 'default'
+26-Jun-2018 21:02:56.718 INFORMAZIONI [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-12003 Plugin 'SpinProcessEnginePlugin' activated on process engine 'default'
+26-Jun-2018 21:02:56.724 INFORMAZIONI [main] org.camunda.commons.logging.BaseLogger.logInfo SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormatProvider[name = application/json]
+26-Jun-2018 21:02:56.969 INFORMAZIONI [main] org.camunda.commons.logging.BaseLogger.logInfo SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormatProvider[name = application/xml]
+26-Jun-2018 21:02:56.977 INFORMAZIONI [main] org.camunda.commons.logging.BaseLogger.logInfo SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormat[name = application/xml]
+26-Jun-2018 21:02:56.984 INFORMAZIONI [main] org.camunda.commons.logging.BaseLogger.logInfo SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormat[name = application/json]
+26-Jun-2018 21:02:56.984 INFORMAZIONI [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-12003 Plugin 'ConnectProcessEnginePlugin' activated on process engine 'default'
+26-Jun-2018 21:02:57.293 INFORMAZIONI [main] org.camunda.commons.logging.BaseLogger.logInfo CNCT-01004 Discovered provider for connector id 'http-connector' and class 'org.camunda.connect.httpclient.impl.HttpConnectorImpl': 'org.camunda.connect.httpclient.impl.HttpConnectorProviderImpl'
+26-Jun-2018 21:02:57.304 INFORMAZIONI [main] org.camunda.commons.logging.BaseLogger.logInfo CNCT-01004 Discovered provider for connector id 'soap-http-connector' and class 'org.camunda.connect.httpclient.soap.impl.SoapHttpConnectorImpl': 'org.camunda.connect.httpclient.soap.impl.SoapHttpConnectorProviderImpl'
+26-Jun-2018 21:03:01.359 INFORMAZIONI [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-00001 Process Engine default created.
+26-Jun-2018 21:03:01.376 INFORMAZIONI [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-14014 Starting up the JobExecutor[org.camunda.bpm.engine.impl.jobexecutor.RuntimeContainerJobExecutor].
+26-Jun-2018 21:03:01.378 INFORMAZIONI [Thread-6] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-14018 JobExecutor[org.camunda.bpm.engine.impl.jobexecutor.RuntimeContainerJobExecutor] starting to acquire jobs
+26-Jun-2018 21:03:01.387 INFORMAZIONI [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-08048 Camunda BPM platform sucessfully started at 'Apache Tomcat/9.0.5'.
+26-Jun-2018 21:03:01.398 INFORMAZIONI [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Jun-2018 21:03:01.398 INFORMAZIONI [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.5
+26-Jun-2018 21:03:01.407 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\david\Git\psd-project\camunda-bpm-ee-tomcat-7.9.0-ee\server\apache-tomcat-9.0.5\webapps\camunda]
+26-Jun-2018 21:03:04.939 INFORMAZIONI [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Jun-2018 21:03:05.450 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\david\Git\psd-project\camunda-bpm-ee-tomcat-7.9.0-ee\server\apache-tomcat-9.0.5\webapps\camunda] has finished in [4,044] ms
+26-Jun-2018 21:03:05.450 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\david\Git\psd-project\camunda-bpm-ee-tomcat-7.9.0-ee\server\apache-tomcat-9.0.5\webapps\camunda-invoice]
+26-Jun-2018 21:03:07.932 INFORMAZIONI [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-07015 Detected @ProcessApplication class 'org.camunda.bpm.example.invoice.InvoiceProcessApplication'
+26-Jun-2018 21:03:07.965 INFORMAZIONI [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Jun-2018 21:03:07.973 INFORMAZIONI [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-08024 Found processes.xml file at file:/C:/Users/david/Git/psd-project/camunda-bpm-ee-tomcat-7.9.0-ee/server/apache-tomcat-9.0.5/webapps/camunda-invoice/WEB-INF/classes/META-INF/processes.xml
+26-Jun-2018 21:03:07.999 INFORMAZIONI [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-08023 Deployment summary for process archive 'camunda-invoice': 
+
+        invoiceBusinessDecisions.dmn
+        invoice.v2.bpmn
+        review-invoice.cmmn
+
+26-Jun-2018 21:03:08.394 INFORMAZIONI [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-07021 ProcessApplication 'camunda-invoice' registered for DB deployments [6fe6e071-77f3-11e8-9dcc-0a0027000008, 6f93de67-77f3-11e8-9dcc-0a0027000008]. Will execute process definitions 
+
+        invoice[version: 2, id: invoice:2:6feb2635-77f3-11e8-9dcc-0a0027000008]
+        invoice[version: 1, id: invoice:1:6fa7b48b-77f3-11e8-9dcc-0a0027000008]
+
+Will execute case definitions 
+
+        ReviewInvoiceCase[version: 2, id: ReviewInvoiceCase:2:6feef6c7-77f3-11e8-9dcc-0a0027000008]
+        ReviewInvoiceCase[version: 1, id: ReviewInvoiceCase:1:6fcfaeed-77f3-11e8-9dcc-0a0027000008]
+
+26-Jun-2018 21:03:08.401 INFORMAZIONI [main] org.camunda.commons.logging.BaseLogger.logInfo SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormatProvider[name = application/json]
+26-Jun-2018 21:03:08.403 INFORMAZIONI [main] org.camunda.commons.logging.BaseLogger.logInfo SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormatProvider[name = application/xml]
+26-Jun-2018 21:03:08.405 INFORMAZIONI [main] org.camunda.commons.logging.BaseLogger.logInfo SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormat[name = application/xml]
+26-Jun-2018 21:03:08.405 INFORMAZIONI [main] org.camunda.commons.logging.BaseLogger.logInfo SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormat[name = application/json]
+26-Jun-2018 21:03:08.464 INFORMAZIONI [main] org.camunda.bpm.example.invoice.InvoiceProcessApplication.startProcessInstances No new instances of Invoice Receipt version 1 started, there are 3 instances running
+26-Jun-2018 21:03:08.487 INFORMAZIONI [main] org.camunda.bpm.example.invoice.InvoiceProcessApplication.startProcessInstances No new instances of Invoice Receipt version 2 started, there are 3 instances running
+26-Jun-2018 21:03:08.487 INFORMAZIONI [main] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-08050 Process application camunda-invoice successfully deployed
+26-Jun-2018 21:03:08.490 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\david\Git\psd-project\camunda-bpm-ee-tomcat-7.9.0-ee\server\apache-tomcat-9.0.5\webapps\camunda-invoice] has finished in [3,040] ms
+26-Jun-2018 21:03:08.492 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\david\Git\psd-project\camunda-bpm-ee-tomcat-7.9.0-ee\server\apache-tomcat-9.0.5\webapps\camunda-welcome]
+26-Jun-2018 21:03:10.810 INFORMAZIONI [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Jun-2018 21:03:10.816 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\david\Git\psd-project\camunda-bpm-ee-tomcat-7.9.0-ee\server\apache-tomcat-9.0.5\webapps\camunda-welcome] has finished in [2,324] ms
+26-Jun-2018 21:03:10.817 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\david\Git\psd-project\camunda-bpm-ee-tomcat-7.9.0-ee\server\apache-tomcat-9.0.5\webapps\docs]
+26-Jun-2018 21:03:13.736 INFORMAZIONI [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Jun-2018 21:03:13.741 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\david\Git\psd-project\camunda-bpm-ee-tomcat-7.9.0-ee\server\apache-tomcat-9.0.5\webapps\docs] has finished in [2,924] ms
+26-Jun-2018 21:03:13.741 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\david\Git\psd-project\camunda-bpm-ee-tomcat-7.9.0-ee\server\apache-tomcat-9.0.5\webapps\engine-rest]
+26-Jun-2018 21:03:18.924 INFORMAZIONI [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Jun-2018 21:03:19.373 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\david\Git\psd-project\camunda-bpm-ee-tomcat-7.9.0-ee\server\apache-tomcat-9.0.5\webapps\engine-rest] has finished in [5,632] ms
+26-Jun-2018 21:03:19.373 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\david\Git\psd-project\camunda-bpm-ee-tomcat-7.9.0-ee\server\apache-tomcat-9.0.5\webapps\examples]
+26-Jun-2018 21:03:24.189 INFORMAZIONI [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Jun-2018 21:03:24.281 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\david\Git\psd-project\camunda-bpm-ee-tomcat-7.9.0-ee\server\apache-tomcat-9.0.5\webapps\examples] has finished in [4,907] ms
+26-Jun-2018 21:03:24.281 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\david\Git\psd-project\camunda-bpm-ee-tomcat-7.9.0-ee\server\apache-tomcat-9.0.5\webapps\h2]
+26-Jun-2018 21:03:28.520 INFORMAZIONI [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Jun-2018 21:03:28.530 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\david\Git\psd-project\camunda-bpm-ee-tomcat-7.9.0-ee\server\apache-tomcat-9.0.5\webapps\h2] has finished in [4,249] ms
+26-Jun-2018 21:03:28.531 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\david\Git\psd-project\camunda-bpm-ee-tomcat-7.9.0-ee\server\apache-tomcat-9.0.5\webapps\host-manager]
+26-Jun-2018 21:03:32.506 INFORMAZIONI [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Jun-2018 21:03:32.510 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\david\Git\psd-project\camunda-bpm-ee-tomcat-7.9.0-ee\server\apache-tomcat-9.0.5\webapps\host-manager] has finished in [3,980] ms
+26-Jun-2018 21:03:32.513 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\david\Git\psd-project\camunda-bpm-ee-tomcat-7.9.0-ee\server\apache-tomcat-9.0.5\webapps\manager]
+26-Jun-2018 21:03:35.604 INFORMAZIONI [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Jun-2018 21:03:35.607 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\david\Git\psd-project\camunda-bpm-ee-tomcat-7.9.0-ee\server\apache-tomcat-9.0.5\webapps\manager] has finished in [3,097] ms
+26-Jun-2018 21:03:35.609 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\david\Git\psd-project\camunda-bpm-ee-tomcat-7.9.0-ee\server\apache-tomcat-9.0.5\webapps\ROOT]
+26-Jun-2018 21:03:38.416 INFORMAZIONI [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Jun-2018 21:03:38.420 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\david\Git\psd-project\camunda-bpm-ee-tomcat-7.9.0-ee\server\apache-tomcat-9.0.5\webapps\ROOT] has finished in [2,812] ms
+26-Jun-2018 21:03:38.422 INFORMAZIONI [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+26-Jun-2018 21:03:38.432 INFORMAZIONI [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+26-Jun-2018 21:03:38.435 INFORMAZIONI [main] org.apache.catalina.startup.Catalina.start Server startup in 42393 ms
+26-Jun-2018 21:03:39.074 INFORMAZIONI [http-nio-8080-exec-6] org.jboss.resteasy.logging.impl.Slf4jLogger.info Deploying javax.ws.rs.core.Application: class org.camunda.bpm.webapp.impl.engine.EngineRestApplication
+26-Jun-2018 21:03:39.074 INFORMAZIONI [http-nio-8080-exec-9] org.jboss.resteasy.logging.impl.Slf4jLogger.info Deploying javax.ws.rs.core.Application: class org.camunda.bpm.admin.impl.web.AdminApplication
+26-Jun-2018 21:04:09.159 INFORMAZIONI [http-nio-8080-exec-7] org.jboss.resteasy.logging.impl.Slf4jLogger.info Deploying javax.ws.rs.core.Application: class org.camunda.bpm.cockpit.impl.web.CockpitApplication
+26-Jun-2018 21:04:09.717 INFORMAZIONI [http-nio-8080-exec-9] org.camunda.bpm.webapp.impl.plugin.LicenseCheckResourceOverride.hasValidLicense Found valid license key for customer politecnico_di_milano.
+26-Jun-2018 21:04:09.717 INFORMAZIONI [http-nio-8080-exec-5] org.camunda.bpm.webapp.impl.plugin.LicenseCheckResourceOverride.hasValidLicense Found valid license key for customer politecnico_di_milano.
+26-Jun-2018 21:04:53.263 INFORMAZIONI [http-nio-8080-exec-8] org.jboss.resteasy.logging.impl.Slf4jLogger.info Deploying javax.ws.rs.core.Application: class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+26-Jun-2018 21:04:53.304 INFORMAZIONI [http-nio-8080-exec-8] org.jboss.resteasy.logging.impl.Slf4jLogger.info Adding provider class org.camunda.bpm.engine.rest.exception.RestExceptionHandler from Application class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+26-Jun-2018 21:04:53.304 INFORMAZIONI [http-nio-8080-exec-8] org.jboss.resteasy.logging.impl.Slf4jLogger.info Adding provider class org.camunda.bpm.engine.rest.exception.JsonMappingExceptionHandler from Application class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+26-Jun-2018 21:04:53.320 INFORMAZIONI [http-nio-8080-exec-8] org.jboss.resteasy.logging.impl.Slf4jLogger.info Adding class resource org.camunda.bpm.engine.rest.impl.JaxRsTwoNamedProcessEngineRestServiceImpl from Application class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+26-Jun-2018 21:04:53.320 INFORMAZIONI [http-nio-8080-exec-8] org.jboss.resteasy.logging.impl.Slf4jLogger.info Adding provider class org.camunda.bpm.engine.rest.exception.JsonParseExceptionHandler from Application class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+26-Jun-2018 21:04:53.321 INFORMAZIONI [http-nio-8080-exec-8] org.jboss.resteasy.logging.impl.Slf4jLogger.info Adding class resource org.camunda.bpm.engine.rest.impl.JaxRsTwoDefaultProcessEngineRestServiceImpl from Application class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+26-Jun-2018 21:04:53.321 INFORMAZIONI [http-nio-8080-exec-8] org.jboss.resteasy.logging.impl.Slf4jLogger.info Adding provider class org.camunda.bpm.engine.rest.mapper.JacksonConfigurator from Application class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+26-Jun-2018 21:04:53.322 INFORMAZIONI [http-nio-8080-exec-8] org.jboss.resteasy.logging.impl.Slf4jLogger.info Adding provider class org.camunda.bpm.engine.rest.exception.ProcessEngineExceptionHandler from Application class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+26-Jun-2018 21:04:53.322 INFORMAZIONI [http-nio-8080-exec-8] org.jboss.resteasy.logging.impl.Slf4jLogger.info Adding provider class org.camunda.bpm.engine.rest.mapper.MultipartPayloadProvider from Application class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+26-Jun-2018 21:04:53.323 INFORMAZIONI [http-nio-8080-exec-8] org.jboss.resteasy.logging.impl.Slf4jLogger.info Adding provider class com.fasterxml.jackson.jaxrs.json.JacksonJsonProvider from Application class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+26-Jun-2018 21:04:53.323 INFORMAZIONI [http-nio-8080-exec-8] org.jboss.resteasy.logging.impl.Slf4jLogger.info Adding provider class org.camunda.bpm.engine.rest.hal.JacksonHalJsonProvider from Application class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+26-Jun-2018 21:04:54.134 AVVERTENZA [http-nio-8080-exec-8] org.camunda.bpm.engine.rest.exception.RestExceptionHandler.toResponse org.camunda.bpm.engine.rest.exception.RestException: multipart/form-data cannot be processed
+	at org.camunda.bpm.engine.rest.mapper.MultipartPayloadProvider.parseRequest(MultipartPayloadProvider.java:93)
+	at org.camunda.bpm.engine.rest.mapper.MultipartPayloadProvider.readFrom(MultipartPayloadProvider.java:71)
+	at org.camunda.bpm.engine.rest.mapper.MultipartPayloadProvider.readFrom(MultipartPayloadProvider.java:49)
+	at org.jboss.resteasy.core.interception.AbstractReaderInterceptorContext.readFrom(AbstractReaderInterceptorContext.java:59)
+	at org.jboss.resteasy.core.interception.ServerReaderInterceptorContext.readFrom(ServerReaderInterceptorContext.java:62)
+	at org.jboss.resteasy.core.interception.AbstractReaderInterceptorContext.proceed(AbstractReaderInterceptorContext.java:51)
+	at org.jboss.resteasy.plugins.interceptors.encoding.GZIPDecodingInterceptor.aroundReadFrom(GZIPDecodingInterceptor.java:59)
+	at org.jboss.resteasy.core.interception.AbstractReaderInterceptorContext.proceed(AbstractReaderInterceptorContext.java:53)
+	at org.jboss.resteasy.core.MessageBodyParameterInjector.inject(MessageBodyParameterInjector.java:150)
+	at org.jboss.resteasy.core.MethodInjectorImpl.injectArguments(MethodInjectorImpl.java:89)
+	at org.jboss.resteasy.core.MethodInjectorImpl.invoke(MethodInjectorImpl.java:112)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTarget(ResourceMethodInvoker.java:296)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:250)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:140)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:103)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:377)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:200)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:220)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.camunda.bpm.engine.rest.filter.CacheControlFilter.doFilter(CacheControlFilter.java:41)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.camunda.bpm.engine.rest.filter.EmptyBodyFilter.doFilter(EmptyBodyFilter.java:97)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:409)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.commons.fileupload.FileUploadException: the request was rejected because no multipart boundary was found
+	at org.apache.commons.fileupload.FileUploadBase$FileItemIteratorImpl.<init>(FileUploadBase.java:990)
+	at org.apache.commons.fileupload.FileUploadBase.getItemIterator(FileUploadBase.java:310)
+	at org.camunda.bpm.engine.rest.mapper.MultipartPayloadProvider.parseRequest(MultipartPayloadProvider.java:87)
+	... 47 more
+
+26-Jun-2018 21:05:48.040 INFORMAZIONI [http-nio-8080-exec-9] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-01002 Ignoring non-executable process with id 'Process_0m9gb16'. Set the attribute isExecutable="true" to deploy this process.
+26-Jun-2018 21:05:48.040 INFORMAZIONI [http-nio-8080-exec-9] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-01002 Ignoring non-executable process with id 'Process_0llgq2g'. Set the attribute isExecutable="true" to deploy this process.
+26-Jun-2018 21:05:48.043 INFORMAZIONI [http-nio-8080-exec-9] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-01002 Ignoring non-executable process with id 'Process_1u2rhts'. Set the attribute isExecutable="true" to deploy this process.
+26-Jun-2018 21:07:50.049 INFORMAZIONI [Thread-8] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-14015 Shutting down the JobExecutor[org.camunda.bpm.engine.impl.jobexecutor.RuntimeContainerJobExecutor]
+26-Jun-2018 21:07:50.049 INFORMAZIONI [Thread-6] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-14020 JobExecutor[org.camunda.bpm.engine.impl.jobexecutor.RuntimeContainerJobExecutor] stopped job acquisition
+26-Jun-2018 21:07:50.078 INFORMAZIONI [Thread-8] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-08051 Process application camunda-invoice undeployed
+26-Jun-2018 21:07:50.092 INFORMAZIONI [Thread-8] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-00007 Process Engine default closed
+26-Jun-2018 21:07:50.093 INFORMAZIONI [Thread-8] org.camunda.commons.logging.BaseLogger.logInfo ENGINE-08049 Camunda BPM platform stopped at 'Apache Tomcat/9.0.5'
+26-Jun-2018 21:07:50.094 INFORMAZIONI [Thread-8] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+26-Jun-2018 21:07:50.318 INFORMAZIONI [Thread-8] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+26-Jun-2018 21:07:50.506 INFORMAZIONI [Thread-8] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+26-Jun-2018 21:07:50.569 AVVERTENZA [Thread-8] org.camunda.commons.logging.BaseLogger.logWarn ENGINE-07017 Calling undeploy() on process application that is not deployed.
+26-Jun-2018 21:07:50.676 INFORMAZIONI [Thread-8] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+26-Jun-2018 21:07:50.683 INFORMAZIONI [Thread-8] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+26-Jun-2018 21:07:50.688 INFORMAZIONI [Thread-8] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+26-Jun-2018 21:07:50.689 INFORMAZIONI [Thread-8] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
