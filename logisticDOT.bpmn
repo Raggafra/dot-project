@@ -110,7 +110,7 @@
       <bpmn:intermediateThrowEvent id="IntermediateThrowEvent_1a7iw2e">
         <bpmn:incoming>SequenceFlow_1g80lle</bpmn:incoming>
         <bpmn:outgoing>SequenceFlow_0tncgjv</bpmn:outgoing>
-        <bpmn:messageEventDefinition />
+        <bpmn:messageEventDefinition messageRef="Message_0r0998n" />
       </bpmn:intermediateThrowEvent>
       <bpmn:sequenceFlow id="SequenceFlow_0tncgjv" sourceRef="IntermediateThrowEvent_1a7iw2e" targetRef="ExclusiveGateway_0rm4pw0" />
       <bpmn:sequenceFlow id="SequenceFlow_1rtt7eg" sourceRef="ExclusiveGateway_0rm4pw0" targetRef="IntermediateThrowEvent_1oyyxke">
@@ -144,7 +144,7 @@
       </bpmn:textAnnotation>
       <bpmn:association id="Association_12950ql" sourceRef="IntermediateThrowEvent_1a7iw2e" targetRef="TextAnnotation_0e9lbmw" />
       <bpmn:textAnnotation id="TextAnnotation_1d7l8go">
-        <bpmn:text>ask request confirmation</bpmn:text>
+        <bpmn:text>request confirmation</bpmn:text>
       </bpmn:textAnnotation>
       <bpmn:association id="Association_1d3s41p" sourceRef="IntermediateThrowEvent_186kmkz" targetRef="TextAnnotation_1d7l8go" />
     </bpmn:subProcess>
@@ -652,27 +652,28 @@
   </bpmn:process>
   <bpmn:process id="Process_035rd86" isExecutable="false" />
   <bpmn:process id="Process_07j79by" isExecutable="false" />
-  <bpmn:message id="Message_1if7toj" name="Message_1rfiica" />
-  <bpmn:message id="Message_0251iaz" name="Message_3tnbngu" />
-  <bpmn:message id="Message_15jupk8" name="Message_1me187l" />
-  <bpmn:message id="Message_0vheffs" name="Message_1feomqh" />
-  <bpmn:message id="Message_0v2wpq1" name="Message_05tq4ma" />
-  <bpmn:message id="Message_18a63el" name="Message_3e9kmfu" />
-  <bpmn:message id="Message_11ctwj3" name="Message_0ltpfqe" />
-  <bpmn:message id="Message_1y2ecps" name="Message_2ggjjqv" />
-  <bpmn:message id="Message_17gmy5k" name="Message_2oqj506" />
-  <bpmn:message id="Message_0tbfx0j" name="Message_0nsa9o8" />
-  <bpmn:message id="Message_0m75dmw" name="Message_12ono3n" />
-  <bpmn:message id="Message_1rru6do" name="Message_0ne11ru" />
-  <bpmn:message id="Message_0pl4di7" name="Message_27oo6at" />
-  <bpmn:message id="Message_1vn5rf4" name="Message_1nm9m8a" />
-  <bpmn:message id="Message_0b3rdcz" name="Message_19a3htv" />
-  <bpmn:message id="Message_1im1mp3" name="Message_1hosv8l" />
-  <bpmn:message id="Message_0dgnivf" name="Message_1niu5c2" />
-  <bpmn:message id="Message_1t6oamm" name="Message_0rqp99n" />
-  <bpmn:message id="Message_0metcw1" name="Message_0gk3nm4" />
-  <bpmn:message id="Message_0j4rzey" name="Message_34jd0vq" />
+  <bpmn:message id="Message_1if7toj" name="packageDimensionsRequest" />
+  <bpmn:message id="Message_0251iaz" name="shipmentInformationRequest" />
+  <bpmn:message id="Message_15jupk8" name="shipmentOptionList" />
+  <bpmn:message id="Message_0vheffs" name="packageDimensions" />
+  <bpmn:message id="Message_0v2wpq1" name="shipmentInformation" />
+  <bpmn:message id="Message_18a63el" name="shipmentRequest" />
+  <bpmn:message id="Message_11ctwj3" name="paymentConfirmation" />
+  <bpmn:message id="Message_1y2ecps" name="shipment Document" />
+  <bpmn:message id="Message_17gmy5k" name="courierPickUpTimeSlotRequest" />
+  <bpmn:message id="Message_0tbfx0j" name="privateToWithdrawal" />
+  <bpmn:message id="Message_0m75dmw" name="privateToWithdrawalConfirmation" />
+  <bpmn:message id="Message_1rru6do" name="courierPickUpTimeSlots" />
+  <bpmn:message id="Message_0pl4di7" name="timeSlotConfirmation" />
+  <bpmn:message id="Message_1vn5rf4" name="deliveredConfirmation" />
+  <bpmn:message id="Message_0b3rdcz" name="paymentRequestConfirmation" />
+  <bpmn:message id="Message_1im1mp3" name="paymantAccepted" />
+  <bpmn:message id="Message_0dgnivf" name="paymentRefused" />
+  <bpmn:message id="Message_1t6oamm" name="courierRequestReceived" />
+  <bpmn:message id="Message_0metcw1" name="packageRetired" />
+  <bpmn:message id="Message_0j4rzey" name="packageLeft" />
   <bpmn:message id="Message_1vgpo94" name="chosenTimeSlot" />
+  <bpmn:message id="Message_0r0998n" name="paymentConfirmation" />
   <bpmndi:BPMNDiagram id="BPMNDiagram_1">
     <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Collaboration_1nvy6es">
       <bpmndi:BPMNShape id="Participant_0fqnmtx_di" bpmnElement="Participant_0fqnmtx">
@@ -1085,7 +1086,7 @@
         <dc:Bounds x="4111" y="1266" width="100" height="40" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="TextAnnotation_1hmc5o7_di" bpmnElement="TextAnnotation_1hmc5o7">
-        <dc:Bounds x="4335" y="1279" width="100" height="41" />
+        <dc:Bounds x="4458" y="1266" width="99.99274099883856" height="40.99520905923345" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="IntermediateCatchEvent_0g9fdkt_di" bpmnElement="IntermediateThrowEvent_1iiczv7">
         <dc:Bounds x="4212" y="-237" width="36" height="36" />
@@ -1375,11 +1376,11 @@
         <di:waypoint x="2249" y="-191" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="TextAnnotation_1d7l8go_di" bpmnElement="TextAnnotation_1d7l8go">
-        <dc:Bounds x="2091" y="-196" width="100" height="39" />
+        <dc:Bounds x="2044" y="-180" width="99.99156545209178" height="38.98869770580296" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="Association_1d3s41p_di" bpmnElement="Association_1d3s41p">
-        <di:waypoint x="2136" y="-211" />
-        <di:waypoint x="2132" y="-196" />
+        <di:waypoint x="2129" y="-215" />
+        <di:waypoint x="2098" y="-180" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="ExclusiveGateway_01cwmfg_di" bpmnElement="ExclusiveGateway_01cwmfg" isMarkerVisible="true">
         <dc:Bounds x="3449" y="-28" width="50" height="50" />
@@ -1444,8 +1445,8 @@
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="Association_1h79doo_di" bpmnElement="Association_1h79doo">
-        <di:waypoint x="4378" y="1273" />
-        <di:waypoint x="4380" y="1279" />
+        <di:waypoint x="4391" y="1260" />
+        <di:waypoint x="4458" y="1275" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="MessageFlow_19peszb_di" bpmnElement="MessageFlow_19peszb">
         <di:waypoint x="4059" y="1587" />
