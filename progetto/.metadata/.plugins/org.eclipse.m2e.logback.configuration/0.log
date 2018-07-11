@@ -1,0 +1,231 @@
+2018-07-10 14:40:01,826 [Worker-5] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-07-10 14:42:31,591 [Worker-16] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' /Users/francescovona/Desktop/LogisticProcess/pom.xml
+2018-07-10 14:42:34,831 [Worker-16] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.camunda.dot:LogisticProcess:0.0.1-SNAPSHOT @ /Users/francescovona/Desktop/LogisticProcess/pom.xml.
+2018-07-10 14:42:36,757 [Worker-16] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /LogisticProcess/src/main/java
+2018-07-10 14:42:36,758 [Worker-16] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /LogisticProcess/src/main/resources
+2018-07-10 14:42:36,766 [Worker-16] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /LogisticProcess/src/test/java
+2018-07-10 14:42:36,766 [Worker-16] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /LogisticProcess/src/test/resources
+2018-07-10 14:42:43,041 [Worker-16] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 11 sec
+2018-07-10 14:42:44,965 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 14:42:44,973 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-07-10 14:42:44,990 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 14:42:44,991 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2018-07-10 14:47:54,873 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 14:47:54,887 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-10 14:47:54,897 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 14:47:54,898 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-10 14:48:58,084 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 14:48:58,105 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-07-10 14:48:58,107 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 14:48:58,108 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-10 14:49:49,691 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 14:49:49,692 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-07-10 14:49:49,697 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 14:49:49,698 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-10 14:52:25,894 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 14:52:25,897 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-10 14:52:25,903 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 14:52:25,903 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-10 14:52:47,797 [Worker-22] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/francescovona/Desktop/LogisticProcess
+2018-07-10 14:52:47,799 [Worker-22] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-07-10 14:53:06,631 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 14:53:06,635 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-07-10 14:53:06,638 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 14:53:06,639 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2018-07-10 15:32:57,573 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 15:32:57,577 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-07-10 15:32:57,580 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 15:32:57,582 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-10 15:33:55,543 [Worker-40] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/francescovona/Desktop/LogisticProcess
+2018-07-10 15:33:55,545 [Worker-40] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-07-10 15:34:14,170 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 15:34:14,174 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-07-10 15:34:14,177 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 15:34:14,177 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-10 15:52:36,544 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 15:52:36,552 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-07-10 15:52:36,571 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 15:52:36,571 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-10 15:52:48,042 [Worker-46] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/francescovona/Desktop/LogisticProcess
+2018-07-10 15:52:48,043 [Worker-46] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-07-10 15:53:08,709 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 15:53:08,712 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-10 15:53:08,714 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 15:53:08,714 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-10 16:29:48,245 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 16:29:48,250 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-07-10 16:29:48,253 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 16:29:48,253 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-10 16:29:56,785 [Worker-62] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/francescovona/Desktop/LogisticProcess
+2018-07-10 16:29:56,786 [Worker-62] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-07-10 16:30:17,231 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 16:30:17,243 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-10 16:30:17,247 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 16:30:17,247 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-10 16:44:24,096 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 16:44:24,100 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-07-10 16:44:24,110 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 16:44:24,110 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-10 16:52:27,954 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 16:52:27,958 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-07-10 16:52:27,980 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 16:52:27,980 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-10 16:52:29,020 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 16:52:29,021 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-10 16:52:29,024 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 16:52:29,024 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-10 16:52:35,496 [Worker-71] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/francescovona/Desktop/LogisticProcess
+2018-07-10 16:52:35,496 [Worker-71] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-07-10 16:52:59,623 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 16:52:59,627 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-07-10 16:52:59,635 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 16:52:59,636 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-10 16:57:56,688 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 16:57:56,692 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-07-10 16:57:56,695 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 16:57:56,696 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-10 17:17:17,980 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 17:17:17,993 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-07-10 17:17:17,996 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 17:17:17,996 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-10 17:18:28,116 [Worker-84] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/francescovona/Desktop/LogisticProcess
+2018-07-10 17:18:28,120 [Worker-84] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-07-10 17:18:54,435 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 17:18:54,440 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-07-10 17:18:54,443 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 17:18:54,443 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-10 17:24:42,034 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 17:24:42,039 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-07-10 17:24:42,043 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 17:24:42,043 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-10 17:25:01,461 [Worker-88] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/francescovona/Desktop/LogisticProcess
+2018-07-10 17:25:01,461 [Worker-88] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-07-10 17:25:31,555 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 17:25:31,559 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-10 17:25:31,562 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 17:25:31,562 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-10 17:28:19,699 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 17:28:19,704 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-07-10 17:28:19,710 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 17:28:19,711 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-11 10:28:01,321 [Worker-4] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-07-11 10:28:05,504 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-11 10:28:05,515 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-07-11 10:28:05,535 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-11 10:28:05,536 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2018-07-11 10:33:16,818 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-11 10:33:16,859 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-11 10:33:16,866 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-11 10:33:16,867 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-11 10:53:48,469 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-11 10:53:48,492 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-07-11 10:53:48,494 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-11 10:53:48,495 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-11 11:31:38,200 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-11 11:31:38,210 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-07-11 11:31:38,221 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-11 11:31:38,222 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-11 11:32:02,745 [Worker-35] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/francescovona/Desktop/LogisticProcess
+2018-07-11 11:32:02,747 [Worker-35] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-07-11 11:32:21,622 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-11 11:32:21,626 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-11 11:32:21,632 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-11 11:32:21,632 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-11 11:35:26,227 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-11 11:35:26,230 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-07-11 11:35:26,237 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-11 11:35:26,238 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-11 11:35:56,677 [Worker-41] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/francescovona/Desktop/LogisticProcess
+2018-07-11 11:35:56,679 [Worker-41] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-07-11 11:36:11,305 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-11 11:36:11,310 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-11 11:36:11,315 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-11 11:36:11,315 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-11 11:39:40,694 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-11 11:39:40,698 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-07-11 11:39:40,701 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-11 11:39:40,702 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-11 11:39:49,830 [Worker-40] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/francescovona/Desktop/LogisticProcess
+2018-07-11 11:39:49,832 [Worker-40] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-07-11 11:40:03,524 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-11 11:40:03,527 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-11 11:40:03,530 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-11 11:40:03,530 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-11 11:41:09,163 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-11 11:41:09,164 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-11 11:41:09,173 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-11 11:41:09,174 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-11 11:41:18,510 [Worker-42] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/francescovona/Desktop/LogisticProcess
+2018-07-11 11:41:18,511 [Worker-42] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-07-11 11:41:35,161 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-11 11:41:35,164 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-11 11:41:35,167 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-11 11:41:35,167 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-11 12:00:36,575 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-11 12:00:36,582 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-07-11 12:00:36,587 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-11 12:00:36,587 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-11 12:00:54,814 [Worker-49] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/francescovona/Desktop/LogisticProcess
+2018-07-11 12:00:54,817 [Worker-49] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-07-11 12:01:15,949 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-11 12:01:15,951 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-11 12:01:15,956 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-11 12:01:15,956 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-11 12:34:50,197 [Worker-53] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/francescovona/Desktop/LogisticProcess
+2018-07-11 12:34:50,207 [Worker-53] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-07-11 12:35:07,431 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-11 12:35:07,439 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-07-11 12:35:07,444 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-11 12:35:07,445 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-11 12:43:02,103 [Worker-56] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/francescovona/Desktop/LogisticProcess
+2018-07-11 12:43:02,107 [Worker-56] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-07-11 12:43:23,946 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-11 12:43:23,953 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-07-11 12:43:23,958 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-11 12:43:23,958 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-11 15:19:31,369 [Worker-75] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/francescovona/Desktop/LogisticProcess
+2018-07-11 15:19:31,381 [Worker-75] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-07-11 15:19:49,959 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-11 15:19:49,963 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-07-11 15:19:49,966 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-11 15:19:49,966 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-11 15:33:34,361 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-11 15:33:34,388 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-11 15:33:34,397 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-11 15:33:34,397 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-11 15:33:51,103 [Worker-75] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/francescovona/Desktop/LogisticProcess
+2018-07-11 15:33:51,104 [Worker-75] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-07-11 15:34:06,520 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-11 15:34:06,524 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-11 15:34:06,528 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-11 15:34:06,528 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-11 15:34:39,690 [Worker-78] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/francescovona/Desktop/LogisticProcess
+2018-07-11 15:34:39,691 [Worker-78] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-07-11 15:34:53,692 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-11 15:34:53,696 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-07-11 15:34:53,700 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-11 15:34:53,700 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-11 15:36:11,390 [Worker-85] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/francescovona/Desktop/LogisticProcess
+2018-07-11 15:36:11,395 [Worker-85] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-07-11 15:36:28,232 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-11 15:36:28,235 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-07-11 15:36:28,239 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-11 15:36:28,239 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-11 15:37:05,843 [Worker-88] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/francescovona/Desktop/LogisticProcess
+2018-07-11 15:37:05,844 [Worker-88] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-07-11 15:37:21,951 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-11 15:37:21,955 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-07-11 15:37:21,960 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-11 15:37:21,960 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-11 15:48:33,552 [Worker-88] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/francescovona/Desktop/LogisticProcess
+2018-07-11 15:48:33,555 [Worker-88] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-07-11 15:48:51,980 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-11 15:48:51,984 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-07-11 15:48:51,986 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-11 15:48:51,986 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-11 15:56:29,469 [Worker-93] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/francescovona/Desktop/LogisticProcess
+2018-07-11 15:56:29,472 [Worker-93] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-07-11 15:56:46,877 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-11 15:56:46,881 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-07-11 15:56:46,885 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-11 15:56:46,885 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
