@@ -1,0 +1,66 @@
+!SESSION 2018-07-13 16:54:36.296 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/francescovona/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/francescovona/.eclipse_keyring
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-07-13 16:55:02.950
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.emf.validation 2 80 2018-07-13 16:55:45.743
+!MESSAGE The constraint "org.eclipse.bpmn2.modeler.core.validation.error" is disabled.  It will not be evaluated.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.bpmn2.modeler.core.utils.EventDefinitionsUtil.getIOParameter(EventDefinitionsUtil.java:87)
+	at org.eclipse.bpmn2.modeler.core.validation.validators.EventDefinitionValidator.validate(EventDefinitionValidator.java:121)
+	at org.eclipse.bpmn2.modeler.core.validation.validators.EventDefinitionValidator.validate(EventDefinitionValidator.java:1)
+	at org.eclipse.bpmn2.modeler.core.validation.validators.AbstractBpmn2ElementValidator.validate(AbstractBpmn2ElementValidator.java:1)
+	at org.eclipse.bpmn2.modeler.core.validation.BPMN2ValidationConstraints.validate(BPMN2ValidationConstraints.java:81)
+	at org.eclipse.emf.validation.internal.util.JavaConstraintParser$ConstraintAdapter.validate(JavaConstraintParser.java:80)
+	at org.eclipse.emf.validation.internal.service.AbstractValidator.evaluateConstraints(AbstractValidator.java:241)
+	at org.eclipse.emf.validation.internal.service.BatchValidator.validate(BatchValidator.java:264)
+	at org.eclipse.emf.validation.internal.service.BatchValidator.validate(BatchValidator.java:211)
+	at org.eclipse.emf.validation.internal.service.BatchValidator.doValidate(BatchValidator.java:149)
+	at org.eclipse.emf.validation.internal.service.AbstractValidator.validate(AbstractValidator.java:147)
+	at org.eclipse.emf.validation.internal.service.BatchValidator.validate(BatchValidator.java:130)
+	at org.eclipse.bpmn2.modeler.core.validation.BPMN2ProjectValidator.validate(BPMN2ProjectValidator.java:105)
+	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1177)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
+	at org.eclipse.wst.validation.internal.ValManager$1.visit(ValManager.java:665)
+	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:810)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:669)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:299)
+	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:120)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:84)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:129)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:94)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:117)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:105)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.fullBuild(ValBuilderJob.java:219)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:178)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.oomph.setup.ui 1 0 2018-07-13 16:55:51.581
+!MESSAGE Setup tasks were performed during startup updating 260 preferences. See '/Applications/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.oomph.setup/setup.log' for details
+
+!ENTRY org.eclipse.jface.text 2 0 2018-07-13 17:02:57.888
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-07-13 17:02:57.892
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-07-13 17:02:58.122
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-07-13 17:02:58.123
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'

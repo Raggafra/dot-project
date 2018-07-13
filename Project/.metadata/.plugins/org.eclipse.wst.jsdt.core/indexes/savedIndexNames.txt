@@ -1,0 +1,6 @@
+INDEX VERSION 1.4+/Users/francescovona/Desktop/Project/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+941005215.index
+2174105052.index
+3226330164.index
+3918583791.index
+3529219386.index

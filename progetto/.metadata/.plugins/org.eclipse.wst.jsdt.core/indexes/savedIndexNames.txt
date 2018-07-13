@@ -1,7 +1,0 @@
-INDEX VERSION 1.4+/Users/francescovona/Desktop/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
-3283304804.index
-3958313132.index
-3330327862.index
-3761389724.index
-72895240.index
-3676124483.index
