@@ -1,0 +1,68 @@
+<html>
+<head>
+    <link href="css/user-interface.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3mobile.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-teal.css">
+    <title>SendShipmentInfo - User</title>
+    <script type="text/javascript" src="./jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="./restEngine.js"></script>
+</head>
+
+<body>
+
+
+    
+    <div class="w3-cell-row">
+        
+                  <div class="w3-center">
+                    <button onClick="sendShipmentInfo();"class="w3-button w3-xxlarge w3-circle w3-red w3-card-4">Send</button>
+                </div>
+        
+    </div>
+        
+    
+
+ 
+
+    <script type="text/javascript">
+		$(document).ready(function(){
+			
+		});
+        
+        function sendShipmentInfo(){
+   
+            console.log("shipment777info");
+   
+        var jdata = JSON.stringify({
+        "messageName" : "shipmentInformation",
+        "processVariables":{
+    "destinationCity" : {"value" : 'Roma', "type": "String" },
+	"destinationCAP"  : {"value" : '10100', "type": "String"},
+	"destinationAddressStreet"  : {"value" : 'a', "type": "String"},
+	"destinationAddressNumber"  : {"value" : '1', "type": "String"},
+	"destinationProvince"  : {"value" : 'RO', "type": "String"},
+	"senderCity"  : {"value" : 'Roma', "type": "String"},
+	"senderCAP"  : {"value" : '10100', "type": "String"},
+	"senderProvince"  : {"value" : 'RO', "type": "String"}
+        }
+    })
+        
+    
+     
+    $.post({
+		url: 'http://localhost:8080/engine-rest/message',
+		contentType: 'application/json',
+		data: jdata
+	});
+    
+}
+    </script>
+
+</body>
+    
+    
+    
+</html>

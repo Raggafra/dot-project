@@ -1,0 +1,131 @@
+<html>
+<head>
+    <link href="css/user-interface.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3mobile.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-teal.css">
+    <title>SendShipmentInfo - User</title>
+    <script type="text/javascript" src="./jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="./restEngine.js"></script>
+</head>
+
+<body>
+
+
+    <header class="w3-top w3-bar w3-theme w3-center">
+        <h1>Fill the form</h1>
+    </header>
+
+    <div class="w3-container" style="margin-top:90px">
+        
+    </div>
+    <hr>
+       <div class="w3-cell w3-container w3-center">
+                  <p>Destination City</p>
+               <input id="d_city" placeholder="Enter your position">
+            </div>
+    
+        <hr>
+           <div class="w3-cell w3-container w3-center">
+                  <p>Destination CAP</p>
+               <input id="d_CAP" placeholder="Enter your position">
+            </div>
+        <hr>
+           <div class="w3-cell w3-container w3-center">
+                  <p>Destination Address</p>
+               <input id="d_add" placeholder="Enter your position">
+            </div>
+    <hr>
+       <div class="w3-cell w3-container w3-center">
+                  <p>Destination address number</p>
+               <input id="d_addn" placeholder="Enter your position">
+            </div>
+    <hr>
+       <div class="w3-cell w3-container w3-center">
+                  <p>Destination province</p>
+               <input id="d_prov" placeholder="Enter your position">
+            </div>
+    <hr>
+       <div class="w3-cell w3-container w3-center">
+                  <p>sender city</p>
+               <input id="s_city" placeholder="Enter your position">
+            </div>
+    <hr>
+       <div class="w3-cell w3-container w3-center">
+                  <p>sender cap</p>
+               <input id="s_cap" placeholder="Enter your position">
+            </div>
+    <hr>
+       <div class="w3-cell w3-container w3-center">
+                  <p>sender province</p>
+               <input id="s_prov" placeholder="Enter your position">
+            </div>
+    <div class="w3-cell-row">
+        
+                  <div class="w3-center">
+                    <button onClick="sendShipmentInfo();"class="w3-button w3-xxlarge w3-circle w3-red w3-card-4">Send Info</button>
+                </div>
+        
+    </div>
+        
+    
+
+ 
+
+    <script type="text/javascript">
+		$(document).ready(function(){
+			
+		});
+        
+        function sendShipmentInfo(){
+    console.log("shipment info");
+    var dcity = $('#d_city').val();
+    var dcap = $('#d_CAP').val();
+    var dadd = $('#d_add').val();
+    var daddn = $('#d_addn').val();
+    var dprov = $('#d_prov').val();
+    var scity = $('#s_city').val();
+    var scap = $('#s_cap').val();
+    var sprov = $('#s_prov').val();
+            console.log("shipment777info");
+    var jdata = JSON.stringify({
+        "messageName" : "shipmentInformation",
+        "processVariables":{
+    "destinationCity" : {"value" : dcity, "type": "String" },
+	"destinationCAP"  : {"value" : dcap, "type": "String"},
+	"destinationAddressStreet"  : {"value" : dadd, "type": "String"},
+	"destinationAddressNumber"  : {"value" : daddn, "type": "String"},
+	"destinationProvince"  : {"value" : dprov, "type": "String"},
+	"senderCity"  : {"value" : scity, "type": "String"},
+	"senderCAP"  : {"value" : scap, "type": "String"},
+	"senderProvince"  : {"value" : sprov, "type": "String"}
+        }
+    })
+     
+    completeTask("Task_0dstoi8",jdata);
+    
+}
+
+function getTaskIDFromName(taskName,func){
+	$.get('http://localhost:8080/engine-rest/task?taskDefinitionKey='+taskName,func);//function(data){ return data[0].id;});
+}
+        
+function completeTask(taskName,jdata,f = null){
+	getTaskIDFromName(taskName,function(data){				
+		$.post({
+			url: 'http://localhost:8080/engine-rest/task/'+data[0].id+'/complete',
+			contentType: 'application/json',
+			data: jdata
+		},f);
+	});
+}
+        
+    </script>
+
+</body>
+    
+    
+    
+</html>
