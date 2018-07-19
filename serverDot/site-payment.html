@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3mobile.css">
     <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-teal.css">
-    <title>SendYourPack - User</title>
+    <title>continue to payment - site</title>
     <script type="text/javascript" src="./jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="./restEngine.js"></script>
     <script type="text/javascript" src="./dot.js"></script>
@@ -23,7 +23,10 @@
     </div>
     <hr>
     <div class="w3-cell-row">
-        now choose the delivery option
+        please continue with payment process. you will e reindirized to the bank's site.
+                  <div class="w3-center">
+                    <button onClick="endPayment();window.location='/user-pay1'; "class="w3-button w3-xlarge  w3-green w3-card-4"> Continue</button>
+                </div>
         
     </div>
         
@@ -38,6 +41,23 @@
 			
 		});
         
+        function endPayment(){
+    console.log("Continue order");
+    var jdata = JSON.stringify({
+        "messageName" : "Continue"
+			});
+    
+            
+	$.post({
+		url: 'http://localhost:8080/engine-rest/message', 
+		contentType: "application/json",
+		data: jdata
+		},function(data){
+			console.log(data);
+		}
+	);
+   
+}
    
 
     </script>

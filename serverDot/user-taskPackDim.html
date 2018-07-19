@@ -1,0 +1,105 @@
+<html>
+<head>
+    <link href="css/user-interface.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3mobile.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-teal.css">
+    <title>SendPackageDimensions - User</title>
+    <script type="text/javascript" src="./jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="./restEngine.js"></script>
+</head>
+
+<body>
+
+
+    <header class="w3-top w3-bar w3-theme w3-center">
+        <h1>SendYourPack</h1>
+    </header>
+
+    <div class="w3-container" style="margin-top:90px">
+        
+    </div>
+    <hr>
+     <div class="w3-cell w3-container w3-center">
+                  <p>Package weight </p>
+               <input id="p-weight" placeholder="Enter your position">
+            </div>
+    
+        <hr>
+           <div class="w3-cell w3-container w3-center">
+                  <p>Package height </p>
+               <input id="p-height" placeholder="Enter your position">
+            </div>
+        <hr>
+           <div class="w3-cell w3-container w3-center">
+                  <p>Package widht </p>
+               <input id="p-widht" placeholder="Enter your position">
+            </div>
+    <hr>
+       <div class="w3-cell w3-container w3-center">
+                  <p>Package lenght </p>
+               <input id="p-lenght" placeholder="Enter your position">
+            </div>
+    <hr>
+    
+        <div class="w3-cell-row">
+        
+                  <div class="w3-center">
+                    <button onClick="sendShipmentPackInfo();window.location='/user-p';"class="w3-button w3-xxlarge w3-circle w3-red w3-card-4">Send package dimensions Info</button>
+                </div>
+        
+    </div>
+    
+
+    <footer class="w3-container w3-bottom w3-theme w3-margin-top w3-center">
+        <h3>Best way to send your packages</h3>
+    </footer>
+
+    <script type="text/javascript">
+		$(document).ready(function(){
+			
+		});
+        
+        function sendShipmentPackInfo(){
+    console.log("shipment pack info");
+    var pweight = $('#p-weight').val();
+    var pheight = $('#p-height').val();
+    var pwidht = $('#p-widht').val();
+    var plenght = $('#p-lenght').val();
+            console.log("777");
+            console.log($('#p-lenght').val());
+    var jdata = JSON.stringify({
+        "messageName" : "packageDimensions",
+        "processVariables":{
+    "P_Weight" : {"value" : pweight, "type": "Integer" },
+	"P_Height"  : {"value" : pheight, "type": "Integer"},
+	"P_Widht"  : {"value" : pwidht, "type": "Integer"},
+	"P_Lenght"  : {"value" : plenght, "type": "Integer"}
+	 }
+    })
+   
+    completeTask("Task_0cnmwgg",jdata);
+}
+        
+function getTaskIDFromName(taskName,func){
+	$.get('http://localhost:8080/engine-rest/task?taskDefinitionKey='+taskName,func);//function(data){ return data[0].id;});
+}
+        
+function completeTask(taskName,jdata,f = null){
+	getTaskIDFromName(taskName,function(data){				
+		$.post({
+			url: 'http://localhost:8080/engine-rest/task/'+data[0].id+'/complete',
+			contentType: 'application/json',
+			data: jdata
+		},f);
+	});
+}
+    </script>
+
+</body>
+    
+    
+    
+</html>

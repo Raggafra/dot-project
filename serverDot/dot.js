@@ -30,8 +30,8 @@ http.createServer(function (request, response) {
     }else if (pathname == '/site'){
 		html = fs.readFileSync("site-home.html","utf8");
 		response.write(html)
-	}else if (pathname == '/user-pay'){
-		html = fs.readFileSync("user-payment.html","utf8");
+	}else if (pathname == '/site-pay'){
+		html = fs.readFileSync("site-payment.html","utf8");
 		response.write(html)
 	}else if (pathname == '/user-pay1'){
 		html = fs.readFileSync("user-payment1.html","utf8");
@@ -39,8 +39,8 @@ http.createServer(function (request, response) {
 	}else if (pathname == '/user-pay2'){
 		html = fs.readFileSync("user-payment2.html","utf8");
 		response.write(html)
-	}else if (pathname == '/user-pay3'){
-		html = fs.readFileSync("user-payment3.html","utf8");
+	}else if (pathname == '/user-confirmPayment'){
+		html = fs.readFileSync("user-confirmPayment.html","utf8");
 		response.write(html)
 	}else if (pathname == '/user-d'){
 		html = fs.readFileSync("user-delivery-option.html","utf8");
@@ -59,6 +59,15 @@ http.createServer(function (request, response) {
 		response.write(html) 
 	}else if (pathname == '/user-t'){
 		html = fs.readFileSync("userTaskShipInfo.html","utf8");
+		response.write(html)
+	}else if (pathname == '/user-taskShipOpt'){
+		html = fs.readFileSync("userTaskShipOptions.html","utf8");
+		response.write(html)
+	}else if (pathname == '/user-sendShipmOpt'){
+		html = fs.readFileSync("user-sendShipmOpt.html","utf8");
+		response.write(html)
+	}else if (pathname == '/user-taskPackDim'){
+		html = fs.readFileSync("user-taskPackDim.html","utf8");
 		response.write(html)
 	}else{
 		console.log("Unable to reach "+pathname);

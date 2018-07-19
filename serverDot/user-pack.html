@@ -14,40 +14,12 @@
 <body>
 
 
-    <header class="w3-top w3-bar w3-theme w3-center">
-        <h1>SendYourPack</h1>
-    </header>
-
-    <div class="w3-container" style="margin-top:90px">
-        
-    </div>
-    <hr>
-     <div class="w3-cell w3-container w3-center">
-                  <p>Package weight </p>
-               <input id="p-weight" placeholder="Enter your position">
-            </div>
-    
-        <hr>
-           <div class="w3-cell w3-container w3-center">
-                  <p>Package height </p>
-               <input id="p-height" placeholder="Enter your position">
-            </div>
-        <hr>
-           <div class="w3-cell w3-container w3-center">
-                  <p>Package widht </p>
-               <input id="p-widht" placeholder="Enter your position">
-            </div>
-    <hr>
-       <div class="w3-cell w3-container w3-center">
-                  <p>Package lenght </p>
-               <input id="p-lenght" placeholder="Enter your position">
-            </div>
-    <hr>
+ 
     
         <div class="w3-cell-row">
         
                   <div class="w3-center">
-                    <button onClick="sendShipmentPackInfo();"class="w3-button w3-xxlarge w3-circle w3-red w3-card-4">Send Info</button>
+                    <button onClick="sendShipmentPackInfo();window.location='/site-c';"class="w3-button w3-xxlarge w3-circle w3-red w3-card-4">Confirm and sen</button>
                 </div>
         
     </div>
@@ -63,20 +35,13 @@
 		});
         
         function sendShipmentPackInfo(){
-    console.log("shipment pack info");
-    var pweight = $('#p-weight').val();
-    var pheight = $('#p-height').val();
-    var pwidht = $('#p-widht').val();
-    var plenght = $('#p-lenght').val();
-            console.log("777");
-            console.log($('#p-lenght').val());
     var jdata = JSON.stringify({
         "messageName" : "packageDimensions",
         "processVariables":{
-    "P_Weight" : {"value" : pweight, "type": "Integer" },
-	"P_Height"  : {"value" : pheight, "type": "Integer"},
-	"P_Widht"  : {"value" : pwidht, "type": "Integer"},
-	"P_Lenght"  : {"value" : plenght, "type": "Integer"}
+    "P_Weight" : {"value" : "100", "type": "Integer" },
+	"P_Height"  : {"value" : "30", "type": "Integer"},
+	"P_Widht"  : {"value" : "50", "type": "Integer"},
+	"P_Lenght"  : {"value" : "20", "type": "Integer"}
 	 }
     })
     $.post({

@@ -1,0 +1,96 @@
+<html>
+<head>
+    <link href="css/user-interface.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3mobile.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-amber.css">
+    <title>SendShipmentInfo - User</title>
+    <script type="text/javascript" src="./jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="./restEngine.js"></script>
+</head>
+
+<body>
+
+
+    <header class="w3-top w3-bar w3-theme w3-center">
+        <h1>Choose an option for your delivery</h1>
+    </header>
+
+    <div class="w3-container" style="margin-top:90px">
+        
+    </div>
+    <hr>
+       <div class="w3-cell w3-container w3-center">
+                <input id="2days"type="checkbox" > fast shipping  
+              
+            </div>
+    
+        <hr>
+           <div class="w3-cell w3-container w3-center">
+                  
+                 <input id="normal" type="checkbox" checked='true'> normal shipping
+  
+            </div>
+        <hr>
+           
+    <div class="w3-cell-row">
+        
+                  <div class="w3-center">
+                    <button onClick="sendShipmentInfo(); window.location='/user-sendShipmOpt';"class="w3-button w3-xlarge  w3-green w3-card-4">Send Info</button>
+                </div>
+        
+    </div>
+        
+    
+
+ 
+
+    <script type="text/javascript">
+		$(document).ready(function(){
+			
+		});
+        
+        function sendShipmentInfo(){
+    console.log("shipment info");
+            
+    var op1 = $('#2days').val();
+    var op2 = $('#normal').val();
+    
+            console.log("shipment777info");
+    var jdata = JSON.stringify({
+        "messageName" : "shipmentInformation",
+        "processVariables":{
+    "option1" : {"value" : op1, "type": "Boolean" },
+	"option2"  : {"value" : op2, "type": "Boolean"}
+	
+        }
+    })
+     
+    completeTask("Task_0ffs06b",jdata);
+    
+}
+        
+function getTaskIDFromName(taskName,func){
+	$.get('http://localhost:8080/engine-rest/task?taskDefinitionKey='+taskName,func);//function(data){ return data[0].id;});
+}
+        
+function completeTask(taskName,jdata,f = null){
+	getTaskIDFromName(taskName,function(data){				
+		$.post({
+			url: 'http://localhost:8080/engine-rest/task/'+data[0].id+'/complete',
+			contentType: 'application/json',
+			data: jdata
+		},f);
+	});
+}
+
+        
+    </script>
+
+</body>
+    
+    
+    
+</html>
