@@ -5,7 +5,7 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3mobile.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-teal.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-amber.css">
     <title>SendPackageDimensions - User</title>
     <script type="text/javascript" src="./jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="./restEngine.js"></script>
@@ -22,40 +22,47 @@
         
     </div>
     <hr>
+    <div class="w3-cell-row">
      <div class="w3-cell w3-container w3-center">
-                  <p>Package weight </p>
+                  <p>Package Weight </p>
                <input id="p-weight" placeholder="Enter your position">
             </div>
+    </div>
     
         <hr>
+    <div class="w3-cell-row">
            <div class="w3-cell w3-container w3-center">
-                  <p>Package height </p>
+                  <p>Package Height </p>
                <input id="p-height" placeholder="Enter your position">
             </div>
+    </div>
         <hr>
+    <div class="w3-cell-row">
            <div class="w3-cell w3-container w3-center">
-                  <p>Package widht </p>
+                  <p>Package Widht </p>
                <input id="p-widht" placeholder="Enter your position">
             </div>
+    </div>
     <hr>
+            <div class="w3-cell-row">
+
        <div class="w3-cell w3-container w3-center">
-                  <p>Package lenght </p>
+                  <p>Package Lenght </p>
                <input id="p-lenght" placeholder="Enter your position">
             </div>
+    </div>
     <hr>
     
         <div class="w3-cell-row">
         
                   <div class="w3-center">
-                    <button onClick="sendShipmentPackInfo();window.location='/user-p';"class="w3-button w3-xxlarge w3-circle w3-red w3-card-4">Send package dimensions Info</button>
+                    <button onClick="sendShipmentPackInfo();window.location='/user-p';"class="w3-button w3-large  w3-green w3-card-4">Continue </button>
                 </div>
         
     </div>
     
 
-    <footer class="w3-container w3-bottom w3-theme w3-margin-top w3-center">
-        <h3>Best way to send your packages</h3>
-    </footer>
+   
 
     <script type="text/javascript">
 		$(document).ready(function(){
